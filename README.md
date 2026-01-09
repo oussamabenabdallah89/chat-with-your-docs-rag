@@ -147,3 +147,11 @@ ollama list
 - Vector DB : ChromaDB
 - Embeddings / LLM : Ollama (local)
 - Frontend : React + Vite
+
+## Demo
+
+### 1) Import d’un PDF
+![Upload PDF](docs/screenshots/upload.png)
+
+### 2) Question / Réponse + Sources
+![Q&A](docs/screenshots/qa.png)
