@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# --- FastAPI / local storage ---
+backend/storage/uploads/
+backend/storage/chroma/
+backend/storage/index/
+backend/storage/*.sqlite
+backend/storage/*.db
+
+# --- Node / Vite ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- Env files ---
+.env
+frontend/.env
+backend/.env
+
+# --- OS ---
+.DS_Store
+Thumbs.db
